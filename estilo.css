@@ -1,0 +1,89 @@
+/* Reset de estilos para eliminar márgenes y rellenos por defecto */
+body, h1, h3, h4, ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilo para el contenedor del logo */
+.logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para la imagen del logo */
+.logo img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+/* Estilo para el título del boletín */
+.logo h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Estilo para el contenedor del nombre del estudiante */
+.estudiante {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el nombre del estudiante */
+.estudiante h3 {
+    font-size: 18px;
+    color: #666;
+}
+
+li{
+    font-weight: bolder;
+    color: #333;
+}
+
+/* Estilo para el contenedor de información */
+.info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para los títulos de la información */
+.info h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los valores de la información */
+.info span {
+    font-weight: bold;
+    color: #666;
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
